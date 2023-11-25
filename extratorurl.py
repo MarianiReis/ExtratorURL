@@ -1,6 +1,6 @@
 import re
 
-Class ExtratorURL:
+class ExtratorURL:
   def __init__(self, url):
     self.url = self.sanitiza_url(url)
     self.valida_url()
